@@ -1,0 +1,11 @@
+q = (input("Enter a number :"))
+sum =0
+if int(q)< 0:
+    print('Invalid number')
+else:
+    for i in range(len(q)):
+        sum += int(q[i])**len(q)
+    if sum == int(q):
+        print("Armstrong number")
+    else:
+        print("Not an armstrong number")
