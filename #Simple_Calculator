@@ -1,0 +1,15 @@
+q = int(input("Enter a number :"))
+a = int(input("Enter another number :"))
+print('choose an operation : 1.add + , 2.subtract - , 3.multiply *, 4.division / :')
+z =int(input())
+
+if z == 1:
+    print(a+q)
+elif z == 2:
+    print(q-a)
+elif z ==3:
+    print(q*a)
+elif z == 4:
+    print(q/a)
+else:
+    print("enter valid operartor")
